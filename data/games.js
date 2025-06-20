@@ -233,4 +233,4 @@ const games = [
   }
 ];
 
-export default games;
+module.exports = games;
