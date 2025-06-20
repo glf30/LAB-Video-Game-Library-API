@@ -70,6 +70,8 @@ Your API should have a router for Games and a separate route for Platforms.  The
 
 Your application should support filtering and sorting of game and platform data through query parameters on the API endpoints.
 
+***For filtering, you only need to be able to filter by one property at a time. Figuring out how to do multiple would be a BONUS GOAL
+
 ## Games Endpoint: `GET /api/games`
 
 This endpoint returns a list of games. It accepts the following **optional** query parameters to filter and sort the results:
