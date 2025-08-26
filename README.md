@@ -45,7 +45,7 @@ Your API should have a router for Games and a separate route for Platforms.  The
     }
     ```
 
-- `PATCH /api/games/:id`
+- `PUT /api/games/:id`
 
   - Updates an existing game for its given properties (except ID!)
   - Accepts any subset of fields from the POST format.
