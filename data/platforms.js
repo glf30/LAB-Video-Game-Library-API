@@ -1,4 +1,4 @@
-const platforms = [
+let platforms = [
   {
     id: 1,
     name: "PlayStation 5",
