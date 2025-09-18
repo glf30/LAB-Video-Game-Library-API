@@ -1,5 +1,5 @@
 // gamesData.js
-const games = [
+let games = [
   {
     id: "d1b22e5a-1f41-4b5d-9c0a-4f7edc1b092d",
     name: "The Legend of Zelda: Tears of the Kingdom",
