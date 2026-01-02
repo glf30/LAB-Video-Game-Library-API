@@ -8,13 +8,14 @@ In this lab, you'll build a basic Express API to serve a collection of video gam
 ## Setup
 
 1. Install dependencies: Setup your project using `npm init -y` and install dependencies for `express`, `morgan`, `lodash`, and `uuid`
-2. Load the data from the provided `.js` files and export your Express app.
 
-3. The required routes are defined below.  Use Postman to test your routes as you write them.
+2. Set up your Express app to listen to requests and as your routes as you complete them.
 
-4. Your app should filter and sort utilizing query parameters
+4. The required routes are defined below.  Use Postman to test your routes as you write them.
 
-5. Errors should be handled with `try-catch` blocks.  Appropriate error messages should be sent back to the user. 
+5. Your app should filter and sort utilizing query parameters
+
+6. Errors should be handled with `try-catch` blocks.  Appropriate error messages should be sent back to the user. 
 
 ---
 
