@@ -39,7 +39,7 @@ Your API should have a router for Games and a separate route for Platforms.  The
   - Expects a request body like this:
     ```json
     {
-      "title": "Game Title",
+      "name": "Game Title",
       "releaseYear": 2025,
       "genres": ["Action", "Adventure"],
       "platforms": ["Switch", "PC"]
@@ -92,7 +92,7 @@ This endpoint returns a list of games. It accepts the following **optional** que
 
 - **`sortBy`**  
   Specifies the field to sort the results by. Supported fields are:  
-  - `title` — Sorts games alphabetically by their title.  
+  - `name` — Sorts games alphabetically by their title.  
   - `releaseYear` — Sorts games by their release year.
 
 - **`order`**  
@@ -100,7 +100,7 @@ This endpoint returns a list of games. It accepts the following **optional** que
   - `asc` — Sorts in ascending order (A-Z or oldest to newest).  
   - `desc` — Sorts in descending order (Z-A or newest to oldest).
 
-**Default sorting:** If no `sortBy` parameter is provided, games should be sorted alphabetically by `title` in ascending order.
+**Default sorting:** If no `sortBy` parameter is provided, games should be sorted alphabetically by `name` in ascending order.
 
 **Example requests:**
 
@@ -118,18 +118,18 @@ This endpoint returns a list of available platforms. It accepts the following op
 
 - **`sortBy`**  
   Specifies the field to sort platforms by. Supported fields are:  
-  - `title` — Sorts platforms alphabetically by their name.  
+  - `name` — Sorts platforms alphabetically by their name.  
   - `releaseYear` — Sorts platforms by their release year.
 
 **Example requests:**
 
-- `GET /api/platforms?sortBy=title`  
+- `GET /api/platforms?sortBy=name`  
   Returns platforms sorted alphabetically.
 
 - `GET /api/platforms?sortBy=releaseYear`  
   Returns platforms sorted by release year from oldest to newest.
 
-  **Default sorting:** If no `sortBy` parameter is provided, games should be sorted alphabetically by `title` in ascending order.
+  **Default sorting:** If no `sortBy` parameter is provided, games should be sorted alphabetically by `name` in ascending order.
 
 ## Bonus Goals
 
