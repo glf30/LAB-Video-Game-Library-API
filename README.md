@@ -45,6 +45,7 @@ Your API should have a router for Games and a separate route for Platforms.  The
       "platforms": ["Switch", "PC"]
     }
     ```
+  - A new UUID should be generated for each new game.
 
 - `PUT /api/games/:id`
 
