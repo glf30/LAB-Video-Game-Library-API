@@ -95,8 +95,10 @@ This endpoint returns a list of games. It accepts the following **optional** que
   - `name` — Sorts games alphabetically by their title.  
   - `releaseYear` — Sorts games by their release year.
 
+  You can optionally choose a property to sort by default.
+
 - **`order`**  
-  Specifies the sort direction. Must be used together with the `sortBy` parameter.  
+  Specifies the sort direction.
   - `asc` — Sorts in ascending order (A-Z or oldest to newest).  
   - `desc` — Sorts in descending order (Z-A or newest to oldest).
 
