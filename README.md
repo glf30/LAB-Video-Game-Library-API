@@ -9,7 +9,7 @@ In this lab, you'll build a basic Express API to serve a collection of video gam
 
 1. Install dependencies: Setup your project using `npm init -y` and install dependencies for `express`, `morgan`, `lodash`, and `uuid`
 
-2. Set up your Express app to listen to requests and as your routes as you complete them.
+2. Set up your Express app to listen to requests made to your routes as you complete theme.
 
 4. The required routes are defined below.  Use Postman to test your routes as you write them.
 
