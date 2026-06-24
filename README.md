@@ -42,7 +42,7 @@ Your API should have a router for Games and a separate route for Platforms.  The
       "name": "Game Title",
       "releaseYear": 2025,
       "genres": ["Action", "Adventure"],
-      "platforms": ["Switch", "PC"]
+      "platforms": ["Nintendo Switch", "PC"]
     }
     ```
   - A new UUID should be generated for each new game.
