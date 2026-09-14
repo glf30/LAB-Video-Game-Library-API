@@ -15,8 +15,6 @@ In this lab, you'll build a basic Express API to serve a collection of video gam
 
 5. Your app should filter and sort utilizing query parameters
 
-6. Errors should be handled with `try-catch` blocks.  Appropriate error messages should be sent back to the user. 
-
 ---
 
 ## Routes
