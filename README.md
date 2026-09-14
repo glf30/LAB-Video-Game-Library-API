@@ -98,8 +98,6 @@ This endpoint returns a list of games. It accepts the following **optional** que
   - `asc` — Sorts in ascending order (A-Z or oldest to newest).  
   - `desc` — Sorts in descending order (Z-A or newest to oldest).
 
-**Default sorting:** If no `sortBy` parameter is provided, games should be sorted alphabetically by `name` in ascending order.
-
 **Example requests:**
 
 - `GET /api/games?platform=PC&sortBy=releaseYear&order=desc`  
@@ -126,8 +124,6 @@ This endpoint returns a list of available platforms. It accepts the following op
 
 - `GET /api/platforms?sortBy=releaseYear`  
   Returns platforms sorted by release year from oldest to newest.
-
-  **Default sorting:** If no `sortBy` parameter is provided, games should be sorted alphabetically by `name` in ascending order.
 
 ## Bonus Goals
 
