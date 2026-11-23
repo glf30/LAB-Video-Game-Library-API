@@ -130,8 +130,8 @@ This endpoint returns a list of available platforms. It accepts the following op
 1. **Add Pagination**  
    Implement pagination for the `/api/games` endpoint using query parameters like `page` and `limit` to return a subset of results per request.
 
-2. **Case-Insensitive Filtering and Sorting**  
-   Make all filtering and sorting on games and platforms case-insensitive for a better user experience.
+2. **Case-Insensitive Filtering**  
+   Make all filtering on games and platforms case-insensitive for a better user experience.
 
 3. **Filtering Multiple Properties**
   Add the ability for your API to filter through multiple properties at a time.  For example if have a query like this: `?platform=PC&genre=Action` then only Action games available on PC should be returned.  
